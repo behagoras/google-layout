@@ -69,6 +69,11 @@ body {
       color: #5F6368;
       border-radius: 10px;
       border: none;
+      &:hover {
+        box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+        border: 1px solid #c6c6c6;
+        color: #222;
+      }
     }
   }
 
