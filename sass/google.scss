@@ -64,6 +64,7 @@ body {
     justify-content: center;
     grid-gap: 15px;
     button {
+      cursor: pointer;
       padding: 0 16px;
       background-color: #F3F3F3;
       color: #5F6368;
@@ -147,7 +148,13 @@ svg{
     list-style: none;
     display: inline-block;
     padding-right: 10px;
-    color: #5F6368;
+    a {
+      color: #5F6368;
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
 
   }
 
